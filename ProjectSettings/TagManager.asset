@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Obstacles
+  - Player
+  - Background
+  - Checkpoints
   - 
   - 
   - 
@@ -55,4 +55,7 @@ TagManager:
     locked: 0
   - name: character
     uniqueID: 2582652991
+    locked: 0
+  - name: obstacle
+    uniqueID: 3528345615
     locked: 0
