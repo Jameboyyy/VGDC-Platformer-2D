@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HurtPlayerOnContact : MonoBehaviour
 {
-
+    //Declarations
     public int damage;
 
     // Start is called before the first frame update
@@ -19,6 +19,8 @@ public class HurtPlayerOnContact : MonoBehaviour
         
     }
 
+    //Damages Player when they enter the object's hitbox
+    //Calls static function HurtPlayer() from HealthManager
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")

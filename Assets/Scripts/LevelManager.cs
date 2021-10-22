@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+    //Declarations
     public GameObject currentCheckpoint;
     private PO player;
     public float respawnDelay;
     public HealthManager healthManager;
-    // Start is called before the first frame update
 
+    // Start is called before the first frame update
     private void Awake()
     {
+        //Initializations
         player = FindObjectOfType<PO>();
         healthManager = FindObjectOfType<HealthManager>();
     }
@@ -26,11 +28,16 @@ public class LevelManager : MonoBehaviour
     {
         
     }
+
+    //Called when Player dies
     public void RespawnPlayer()
     {
         StartCoroutine("RespawnPlayerCo");
     }
 
+    //Allows the Respawn code to run along side the rest of the game
+    //Disables Player movement and visibility, waits for respawnDelay seconds, 
+    //sets Player's location to last checkpoint, resets health, and reenables moevement and visibility
     public IEnumerator RespawnPlayerCo()
     {
         player.enabled = false;
