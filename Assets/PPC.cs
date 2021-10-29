@@ -10,6 +10,8 @@ public class PPC : PO {
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
+    private bool doubleJumped;
+
     // Use this for initialization
     void Awake () 
     {
@@ -23,11 +25,29 @@ public class PPC : PO {
 
         move.x = Input.GetAxis ("Horizontal");
 
+        if (grounded)
+        {
+            doubleJumped = false;
+        }
+
         if (Input.GetButtonDown ("Jump") && grounded) {
             velocity.y = jumpTakeOffSpeed;
         } else if (Input.GetButtonUp ("Jump")) 
         {
             if (velocity.y > 0) {
+                velocity.y = velocity.y * 0.5f;
+            }
+        }
+
+        if (Input.GetButtonDown("Jump") && !doubleJumped && !grounded)
+        {
+            velocity.y = jumpTakeOffSpeed;
+            doubleJumped = true;
+        }
+        else if (Input.GetButtonUp("Jump"))
+        {
+            if (velocity.y > 0)
+            {
                 velocity.y = velocity.y * 0.5f;
             }
         }
