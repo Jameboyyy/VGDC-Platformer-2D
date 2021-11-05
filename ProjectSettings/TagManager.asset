@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Obstacles
+  - Player
+  - Background
+  - Checkpoints
   - 
   - 
   - 
@@ -40,4 +40,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: bkg
+    uniqueID: 2044701001
+    locked: 0
+  - name: trees
+    uniqueID: 2774710663
+    locked: 0
+  - name: path
+    uniqueID: 1037449125
+    locked: 0
+  - name: foreground
+    uniqueID: 2656267025
+    locked: 0
+  - name: character
+    uniqueID: 2582652991
+    locked: 0
+  - name: obstacle
+    uniqueID: 3528345615
     locked: 0

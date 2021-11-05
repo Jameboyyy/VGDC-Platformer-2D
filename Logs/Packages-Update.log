@@ -1,5 +1,5 @@
 
-=== Thu Oct  7 02:11:43 2021
+=== Mon Oct 18 10:23:53 2021
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -48,14 +48,3 @@ The following packages were updated:
   com.unity.2d.animation from version 5.0.1 to 5.0.7
   com.unity.2d.psdimporter from version 4.0.1 to 4.1.0
   com.unity.2d.spriteshape from version 5.0.1 to 5.1.4
-
-=== Thu Oct  7 02:52:54 2021
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were added:
-  com.unity.ads@3.7.5
-  com.unity.analytics@3.6.11
-  com.unity.purchasing@3.2.2
-  com.unity.xr.legacyinputhelpers@2.1.8
