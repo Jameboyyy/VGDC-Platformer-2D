@@ -303,3 +303,188 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-11-11 14:46:50.458 Unity[20205:1901459] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002e00d20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1213ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1021ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.3 MB.
+System memory in use after: 250.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 3.432095 ms (FindLiveObjects: 0.263862 ms CreateObjectMapping: 0.131689 ms MarkObjects: 3.011811 ms  DeleteObjects: 0.023415 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 772.187149 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a9e3f6a0cb31d36468623288559b77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a9e3f6a0cb31d36468623288559b77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bc1587f5b8251b497bcfcdb52757a8') in 0.007616 seconds 
+  Import took 0.011877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.369839 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b245b44b8a431e4932e002957dbf036') in 0.013349 seconds 
+  Import took 0.016950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.599177 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(e067e8a7c7d833345ac5434df2313be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(e067e8a7c7d833345ac5434df2313be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15440c0d7647138c6cc7765a17ffa88') in 0.004474 seconds 
+  Import took 0.009812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.233674 seconds.
+  path: Assets/Scenes/Select Screen.unity
+  artifactKey: Guid(e32cb22dbadab4394994c519b9564ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select Screen.unity using Guid(e32cb22dbadab4394994c519b9564ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef11a2798d6c36b157f69768e18061f5') in 0.003392 seconds 
+  Import took 0.007870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 350.219013 seconds.
+  path: Assets/select_screen.jpeg
+  artifactKey: Guid(1840f32b6ca3c4381a7afa30ceeeaffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/select_screen.jpeg using Guid(1840f32b6ca3c4381a7afa30ceeeaffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524764929d35b9cf1feaaf65d4ba47be') in 1.266638 seconds 
+  Import took 1.270727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.546320 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001496 seconds 
+  Import took 0.005181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.656045 seconds.
+  path: Assets/SelectScreen
+  artifactKey: Guid(e817c481f3e4e45498485fc493dee3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen using Guid(e817c481f3e4e45498485fc493dee3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb29d8897146d32438891b9983c4b09') in 0.002516 seconds 
+  Import took 0.006458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.478177 seconds.
+  path: Assets/SelectScreen/charachter_skins
+  artifactKey: Guid(cd055b050c2ba408fb074798c47d0983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/charachter_skins using Guid(cd055b050c2ba408fb074798c47d0983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276bc8c4b5beacaec7a696142b74c3d4') in 0.001976 seconds 
+  Import took 0.005643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.031917 seconds.
+  path: Assets/SelectScreen/background_select_skin
+  artifactKey: Guid(7fe284ea5cb484a32b5fa695260c8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/background_select_skin using Guid(7fe284ea5cb484a32b5fa695260c8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f126c6afdcf68aa7eaa1a5a1af4bb1') in 0.002236 seconds 
+  Import took 0.006872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.312355 seconds.
+  path: Assets/SelectScreen/buttons
+  artifactKey: Guid(37e4283fa0ea24dad881e72bcd4a3b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/buttons using Guid(37e4283fa0ea24dad881e72bcd4a3b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec40f7acb2d57eebe0be4c80999ca77') in 0.001690 seconds 
+  Import took 0.006547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.879362 seconds.
+  path: Assets/SelectScreen/charachter_skins/waluigi.png
+  artifactKey: Guid(0c10c80230ba148f89b0f8594302f6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/charachter_skins/waluigi.png using Guid(0c10c80230ba148f89b0f8594302f6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd1dff2f703c2fa88acdd60b0370e0') in 0.024487 seconds 
+  Import took 0.028397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.301593 seconds.
+  path: Assets/SelectScreen/buttons/white arrow RIGHT.png
+  artifactKey: Guid(f1a9e7ddc91cc4f24bf9c6b93e3da204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/buttons/white arrow RIGHT.png using Guid(f1a9e7ddc91cc4f24bf9c6b93e3da204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c2777872f2d8bc7178feb734b2d76d') in 0.015565 seconds 
+  Import took 0.020363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.902334 seconds.
+  path: Assets/SelectScreen/buttons/white arrow LEFT.png
+  artifactKey: Guid(f5a29b2086f8e4fc4bf9c7d974ac729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/buttons/white arrow LEFT.png using Guid(f5a29b2086f8e4fc4bf9c7d974ac729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c9eb94742714a282429e829d9c4475') in 0.018415 seconds 
+  Import took 0.023061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.674942 seconds.
+  path: Assets/SelectScreen/buttons/play.png
+  artifactKey: Guid(0172910b8410e405f9971bc17f7eee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/buttons/play.png using Guid(0172910b8410e405f9971bc17f7eee82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923e8579aea80b3785afe436fbe3f999') in 0.021180 seconds 
+  Import took 0.025363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.859439 seconds.
+  path: Assets/SelectScreen/charachter_skins/goku.png
+  artifactKey: Guid(33a2193c5fbff487786a232331fe78e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/charachter_skins/goku.png using Guid(33a2193c5fbff487786a232331fe78e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49843d503e7e348fb7a5e5ed52fdea23') in 0.015930 seconds 
+  Import took 0.020115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.003349 seconds.
+  path: Assets/SelectScreen/charachter_skins/cloud.png
+  artifactKey: Guid(5f777bb352448492cb5eb50d09f83496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SelectScreen/charachter_skins/cloud.png using Guid(5f777bb352448492cb5eb50d09f83496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4450d4dfc404d4b14f7927b4f7861e9') in 0.022949 seconds 
+  Import took 0.027065 seconds .
+
