@@ -6,6 +6,7 @@ public class HurtPlayerOnContact : MonoBehaviour
 {
     //Declarations
     public int damage;
+    private EnemyPatrol enemy;
 
     // Start is called before the first frame update
     void Start()
@@ -27,5 +28,6 @@ public class HurtPlayerOnContact : MonoBehaviour
         {
             HealthManager.HurtPlayer(damage);
         }
+        
     }
 }
