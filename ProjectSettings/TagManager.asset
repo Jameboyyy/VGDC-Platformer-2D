@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Player
   - Background
   - Checkpoints
-  - 
+  - Enemies
   - 
   - 
   - 
@@ -58,4 +59,7 @@ TagManager:
     locked: 0
   - name: obstacle
     uniqueID: 3528345615
+    locked: 0
+  - name: enemy
+    uniqueID: 2179074915
     locked: 0
